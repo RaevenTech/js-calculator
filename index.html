@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculator</title>
+</head>
+<body>
+  <h1> CALCULATOR </h1>
+  <main class="main-wrapper">
+    <div class="display-row">
+      <div class="input-screen">
+        <div class="previous-input">0</div>
+        <div class="current-input">0</div>
+      </div>
+      <button type="button" class="btn btn-outline-danger clear-btn"> C </button>
+    </div>
+    <div class="row-cal">
+      <button type="button" class="btn btn-outline-secondary number"> 7 </button>
+      <button type="button" class="btn btn-outline-secondary number"> 8 </button>
+      <button type="button" class="btn btn-outline-secondary number"> 9 </button>
+      <button type="button" class="btn btn-outline-warning operator"> / </button>
+    </div>
+    <div class="row-cal">
+      <button type="button" class="btn btn-outline-secondary number"> 4 </button>
+      <button type="button" class="btn btn-outline-secondary number"> 5 </button>
+      <button type="button" class="btn btn-outline-secondary number"> 6 </button>
+      <button type="button" class="btn btn-outline-warning operator"> x </button>
+    </div>
+    <div class="row-cal">
+      <button type="button" class="btn btn-outline-secondary number"> 1 </button>
+      <button type="button" class="btn btn-outline-secondary number"> 2 </button>
+      <button type="button" class="btn btn-outline-secondary number"> 3 </button>
+      <button type="button" class="btn btn-outline-warning operator"> - </button>
+    </div>
+    <div class="row-cal">
+      <button type="button" class="btn btn-outline-warning decimal"> . </button>
+      <button type="button" class="btn btn-outline-secondary number"> 0 </button>
+      <button type="button" class="btn btn-outline-success equal"> = </button>
+      <button type="button" class="btn btn-outline-warning operator"> + </button>
+    </div>
+  </main>
+  <script src="script.js" async></script>
+</body>
+</html>
