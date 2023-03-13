@@ -58,17 +58,20 @@ h1 {
   justify-content: flex-end;
   align-items: flex-end;
   padding-right: 10px;
+  background-color: rgba(172, 255, 47, 0.301);
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: inset 0px 0px 5px 2px greenyellow;
 }
 
-.current-input {
+#current-input {
   font-size: 30px;
-  color: white;
+  color: greenyellow;
   font-weight: 500;
 }
 
-.previous-input {
+#previous-input {
   font-size: 20px;
-  color: rgb(252, 79, 79);
-  font-weight: 300;
+  color: greenyellow;
+  font-weight: 400;
 
 }
