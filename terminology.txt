@@ -1,0 +1,44 @@
+1. Why is it important to write clean code?
+  ANSWER: It makes it easier for other develpers to read and perform chnges if needed.
+2. What is the difference between good comments and bad comments?
+  ANSWER: Good comments explain clearly what is being done. bad comments would be vague or a one word refrence
+3. What is an array?
+  ANSWER: An array is a collection of items 
+4. What are arrays useful for?
+  ANSWER: Storing data
+5. How do you access an array element?
+  ANSWER: Though the index if the array 
+6. How do you change an array element?
+  ANSWER: by using methods 
+7. What are some useful array properties?
+  ANSWER:  1. filter()  2. forEach()  3. push()  4. pop()  5. includes()  6. map()  7. shift() 8. unShift()
+8. What are some useful array methods?
+  ANSWER: splice() , sice() , concat() , join() , every() , indexOf() , reverse() , sort()
+9. What are loops useful for?
+  ANSWER: looping through array
+10.What is the break statement?
+  ANSWER: The break statement terminates the current loop, switch , or label statement and transfers program control to the statement
+           following the terminated statement.
+11. What is the continue statement?
+  ANSWER: The continue statement terminates execution of the statements in the current iteration of the current or labeled loop, and 
+           continues execution of the loop with the next iteration.
+12.What is the DOM?
+  ANSWER: The Document Object Model is a cross-platform and language-independent interface
+13.How do you target the nodes you want to work with?
+  ANSWER: We can do this using one of the multiple methods the DOM API: .getElementById("body")
+14.How do you create an element in the DOM?
+  ANSWER: const element = documnet.createElement("div")
+15.How do you add an element to the DOM?
+  ANSWER: element.appendChild()"div")
+16.How do you remove an element from the DOM?
+  ANSWER: element. remove() 
+17.How can you alter an element in the DOM?
+  ANSWER: element.textContent("new content")
+18.When adding text to a DOM element, should you use textContent or innerHTML?
+  ANSWER: textContent
+19.Where should you include your JavaScript tag in your HTML file when working with DOM nodes?
+  ANSWER: At the bottom of the documnet after the closing body tag but before the closing HTNL tag.
+20.How do “events” and “listeners” work?
+  ANSWER: Event listeners are called only when the event happens in the context of the object they are registered on.
+21.What are three ways to use events in your code?
+ANSWER:page loading, an onclick event, or pressing a key 
